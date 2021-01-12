@@ -12,7 +12,7 @@ libraryDependencies ++= Seq( "io.github.embeddedkafka" %% "embedded-kafka" % "2.
  "org.scalactic" %% "scalactic" % "3.3.0-SNAP3",
  "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % "test",
  "org.mockito" %% "mockito-scala" % "1.16.13" % "test",
-)
+))
 
 
 
@@ -24,7 +24,7 @@ libraryDependencies ++= Seq( "com.typesafe.akka" %% "akka-actor-typed" % "2.6.10
  "com.typesafe.akka" %% "akka-persistence-typed" % "2.6.10",
  "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.10" % "Test",
  "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % "test",
- ).dependsOn(common)
+ )).dependsOn(common)
 
 
  
